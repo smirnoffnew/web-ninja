@@ -13,6 +13,7 @@ class AddIsAdminColumnToUsersTable extends Migration
      */
     public function up()
     {
+        Schema::defaultStringLength(191);
         Schema::table('users', function (Blueprint $table) {
             $table->boolean('isAdmin')->default(false);;
         });
