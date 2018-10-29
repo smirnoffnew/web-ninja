@@ -1,9 +1,13 @@
 # Laravel API for support frontend development
 
-This is project created like service for creating test frontend projects.
+### Before start working please install 
+##### php 7.2 
+##### composer
+##### MySql
+##### create a database "web_ninja"
 
 
-## Getting Started for development
+## run the following commands
 
 ```
 cp .env.example .env
